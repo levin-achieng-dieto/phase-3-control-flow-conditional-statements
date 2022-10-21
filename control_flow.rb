@@ -25,16 +25,17 @@ end
 
 def fizzbuzz(num)
   # your code here
-  if num % 3 == 0
-    return "Fizz"
+  if num % 3 == 0 && num % 5 == 0
+    return "FizzBuzz"
   elsif num % 5 == 0
     return "Buzz"
-  elsif num % 5 === 0 && num % 3 === 0
-    return "FizzBuzz"
+  elsif num % 3 == 0 
+    return "Fizz"
   else
-    return num
+     return num
   end
 end
+
 
 def calculator(operation, num1, num2)
   # your code here
